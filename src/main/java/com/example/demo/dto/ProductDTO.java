@@ -17,7 +17,6 @@ public class ProductDTO {
 	}
 
 	public ProductDTO(Long id, String name, List<CategoryDTO> categories) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.categories = categories;
